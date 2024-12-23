@@ -133,11 +133,11 @@ p {
     background-color: transparent !important;
     border: none !important;
     border-radius: 10px;
-    width: 500px;
     padding: 20px;
 }
 
 .card img {
+    width: 100px;
     margin: auto;
     margin-bottom: 20px;
     animation: slidein 1.5s ease-in-out;
@@ -189,6 +189,53 @@ section {
     height: auto;
     padding: 15px;
     max-width: 90%;
+}
+
+}
+
+/* ------------------------- 320px ------------------------- */
+
+@media only screen and (max-width: 320px) {
+
+img {
+    width: 100px;
+}
+
+.navbar a {
+    padding: 6px;
+}
+
+}
+
+/* ------------------------- 225px ------------------------- */
+
+@media only screen and (max-width: 250px) {
+
+button {
+    width: 100%;
+}
+
+section {
+    padding: 5px;
+    max-width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.card img {
+    width: 50px;
+    animation: slidein 1.5s ease-in-out;
+}
+
+.card h3 {
+    font-size: 15px;
+}
+
+.social-buttons a {
+    font-size: 10px;
+    padding: 5px;
 }
 
 }
