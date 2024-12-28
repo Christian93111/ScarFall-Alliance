@@ -27,6 +27,7 @@
 }
 
 .navbar a {
+    font-size: larger;
     font-weight: 500;
     color: white;
     padding: 10px;
@@ -34,10 +35,6 @@
 
 .navbar a:hover {
     color: white;
-}
-
-li {
-    margin-right: 20px;
 }
 
 img {
@@ -53,6 +50,10 @@ button {
 
 ul {
     align-items: center;
+}
+
+li {
+    margin: 15px;
 }
 
 main {
@@ -176,10 +177,6 @@ p {
 
 @media only screen and (max-width: 480px) {
 
-li {
-    margin: 0px;
-}
-
 main {
     display: block;
     height: auto;
@@ -231,6 +228,10 @@ img {
 /* ------------------------- 250px ------------------------- */
 
 @media only screen and (max-width: 250px) {
+
+.navbar a {
+    font-size: medium;
+}
 
 .navbar a {
     margin: auto;
