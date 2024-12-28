@@ -1,4 +1,4 @@
-/* ------------------------- Desktop (Main) Version ------------------------- */
+/* ------------------------- Desktop ------------------------- */
 
 .background {
     background-image: url('images/background.png');
@@ -154,7 +154,7 @@ p {
     background-color: orange;
 }
 
-/* ------------------------- Mobile (Small Screen) Version ------------------------- */
+/* ------------------------- Mobile Small Screen (480px) ------------------------- */
 
 @media only screen and (max-width: 480px) {
 
@@ -271,7 +271,9 @@ p {
         opacity: 0;
         transform: translateX(-100px);
     }
-    to { opacity: 1 }
+    to { 
+        opacity: 1 
+    }
 }
 
 @keyframes fadeinright {
@@ -279,7 +281,9 @@ p {
         opacity: 0;
         transform: translateX(50px);
     }
-    to { opacity: 1 }
+    to { 
+        opacity: 1 
+    }
 }
 
 @keyframes fadeintop {
